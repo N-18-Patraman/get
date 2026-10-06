@@ -20,7 +20,7 @@ num=0
 def dec2bin(value):
     return [int(element) for element in bin(value)[2:].zfill(8)]
 
-sleep_time=0.1
+sleep_time=0.2
 
 while True:
     if GPIO.input(buttonUp):
